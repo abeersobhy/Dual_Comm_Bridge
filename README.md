@@ -42,7 +42,7 @@ This setup effectively forms a *full-duplex communication bridge* between two mi
 ## 🖼️ Take a Look 
 
 <p align="right">
-  <img src="Doc/HW.ipg" width="550" alt="Data Transfer">
+  <img src="Doc/HW.png" width="550" alt="Data Transfer">
 </p>
 <p align="left">
   <img src="Doc/DualComm_Bridge.png" width="550" alt="Data Transfer">
