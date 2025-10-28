@@ -39,10 +39,10 @@ This setup effectively forms a *full-duplex communication bridge* between two mi
 ✅ Modular, testable codebase for both devices  
 
 
-## 🖼️ Project Operation
+## 🖼️ View Project
 
 <p align="center">
-  <img src="Doc/DualComm_Bridge.jpg" width="550" alt="STM32-Arduino setup on breadboard">
+  <img src="Doc/DualComm_Bridge.jpg" width="550" alt="Data Transfer">
 </p>
 
 
