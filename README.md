@@ -49,14 +49,10 @@ This setup effectively forms a *full-duplex communication bridge* between two mi
 </p>
 
 
-
 ## 🎬 Demo Video
-
 Here’s a short demo showing the system in action:  
 
-<video src="Doc/DualComm_Bridge.mp4" controls width="600"></video>  
-
-🎥 [Click here to view the demo video directly](Doc/DualComm_Bridge.mp4)
+🎥 [Watch the demo on YouTube](https://youtu.be/uubYdVKIsu8)
 
 
 ## 🚀 How to Use
