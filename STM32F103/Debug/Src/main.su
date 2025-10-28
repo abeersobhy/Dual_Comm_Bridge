@@ -1,0 +1,2 @@
+../Src/main.c:11:5:main	72	static
+../Src/main.c:72:6:UART_ISR	8	static
