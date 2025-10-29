@@ -8,9 +8,9 @@
 
 ### Data starts from PC and ends with PC - It demonstrates synchronized data transfer in both directions :
 
-### - PC <------UART-----> STM32 <----SPI----> Arduino <----UART----> PC
+###  PC <------UART-----> STM32 <----SPI----> Arduino <----UART----> PC
 
-This setup effectively forms a *full-duplex communication bridge* between two microcontrollers and a PC.
+### This setup effectively forms a *full-duplex communication bridge* between two microcontrollers and a PC.
 
 
 ## ⚙️ Hardware Setup
@@ -39,7 +39,13 @@ This setup effectively forms a *full-duplex communication bridge* between two mi
 ✅ Modular, testable codebase for both devices  
 
 
-## 🖼️ Take a Look 
+## 🎬 Demo Video
+Here’s a short demo showing the system in action:  
+
+🎥 [Watch the demo on YouTube](https://youtu.be/uubYdVKIsu8)
+
+
+## 🖼️ Take a Quick look 
 
 <p align="right">
   <img src="Doc/HW.png" width="550" alt="Data Transfer">
@@ -47,17 +53,6 @@ This setup effectively forms a *full-duplex communication bridge* between two mi
 <p align="left">
   <img src="Doc/DualComm_Bridge.png" width="550" alt="Data Transfer">
 </p>
-
-
-
-## 🎬 Demo Video
-
-Here’s a short demo showing the system in action:  
-
-<video src="Doc/DualComm_Bridge.mp4" controls width="600"></video>  
-
-🎥 [Click here to view the demo video directly](Doc/DualComm_Bridge.mp4)
-
 
 ## 🚀 How to Use
 
