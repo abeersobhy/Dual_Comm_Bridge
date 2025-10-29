@@ -12,6 +12,7 @@
 
 ### This setup effectively forms a *full-duplex communication bridge* between two microcontrollers and a PC.
 
+---
 
 ## ⚙️ Hardware Setup
 
@@ -20,6 +21,8 @@
 | STM32F103C8T6 | SPI Master + UART Interface | UART ↔ PC, SPI ↔ Arduino |
 | Arduino Uno / Nano | SPI Slave + UART Interface | SPI ↔ STM32, UART ↔ PC |
 | PC / Serial Terminal | User Interface | UART ↔ STM32 & Arduino |
+
+---
 
 🧩 **Connections Summary**
 | STM32 (SPI1) | Arduino (SPI) |
@@ -30,6 +33,7 @@
 | PA4 (NSS)     | D10 (SS)       |
 | GND           | GND            |
 
+---
 
 ## ⚡ Features
 
@@ -38,12 +42,14 @@
 ✅ Bidirectional data forwarding between STM32 ↔ Arduino ↔ PC  
 ✅ Modular, testable codebase for both devices  
 
+---
 
 ## 🎬 Demo Video
 Here’s a short demo showing the system in action:  
 
 🎥 [Watch the demo on YouTube](https://youtu.be/uubYdVKIsu8)
 
+---
 
 ## 🖼️ Take a Quick look 
 
@@ -53,6 +59,8 @@ Here’s a short demo showing the system in action:
 <p align="left">
   <img src="Doc/DualComm_Bridge.png" width="550" alt="Data Transfer">
 </p>
+
+---
 
 ## 🚀 How to Use
 
@@ -72,12 +80,14 @@ Here’s a short demo showing the system in action:
 - STM32 runs SPI master polling
 - STM32 runs UART receive/read with interrupt mode & UART send/write with polling mode 
 - Arduino runs SPI slave polling mode & UART read & write with polling   
+
 ---
 
 ## 🧪 Testing & CI (Future Plan)
 - Unit Testing (gtest / CppUTest)
 - Build Automation with CMake
 - Continuous Integration (GitHub Actions)
+
 ---
 
 ## 👨‍💻 Authors
