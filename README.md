@@ -64,7 +64,7 @@ Here’s a short demo showing the system in action:
 
 ## 🚀 How to Use
 
-1. **Flash the STM32** code using STM32CubeIDE or ST-Link Utility (where the .bin & .hex files are available on Debug file).  
+1. **Flash the STM32** code using STM32CubeIDE or ST-Link Utility (where the .bin & .hex files are available on Debug folder).  
 2. **Upload the Arduino** `.ino` sketch using the Arduino IDE.  
 3. **Open two Serial Monitors:** **CoolTerm Recommended**
    - STM32 COM port @ `9600 baud`
