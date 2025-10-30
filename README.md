@@ -38,7 +38,7 @@
 ## ⚡ Features
 
 ✅ Full-duplex two-way communication  
-✅ UART (9600 baud, 8N1) and SPI (Mode 2, MSB first) synchronization  
+✅ UART (9600 baud, 8N1) and SPI (Mode 0, LSB first) synchronization  
 ✅ Bidirectional data forwarding between STM32 ↔ Arduino ↔ PC  
 ✅ Modular, testable codebase for both devices  
 
